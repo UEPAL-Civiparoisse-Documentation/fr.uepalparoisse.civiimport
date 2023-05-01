@@ -1,0 +1,12 @@
+{
+    "name": "uepal/fr.uepalparoisse.civiimport",
+    "autoload": {
+        "psr-4": {
+            "Uepal\\CiviImport\\": "src/"
+        }
+    },
+    "require": {
+        "phpoffice/phpspreadsheet": ">=1.24.1",
+        "psr/log": "~1.0 || ~2.0 || ~3.0",
+    }
+}
